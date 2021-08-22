@@ -7,6 +7,10 @@
     "icon": "",
     "id": "encoder_video_hevc_nvenc",
     "name": "Video Encoder H265/HEVC - hevc_nvenc",
+    "priorities": {
+        "on_library_management_file_test": 99,
+        "on_worker_process": 0
+    },
     "tags": "video,encoder,ffmpeg,nvidia",
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
